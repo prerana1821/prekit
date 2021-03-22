@@ -15,7 +15,7 @@
   --tertiary-color: #f3f4f6;
   --body-color: #f0f8ff;
   --white-color: #fff;
-  --grey-color: #d1d5db;
+  --grey-color: #9ca3af;
   --lt-blue: #adeef1;
   --dk-blue: #11a8d5;
   --lt-green: #d1fae5;
@@ -347,7 +347,7 @@ small {
   outline: none;
   padding: 0.8rem 1rem;
   font-size: large;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   cursor: pointer;
   box-shadow: var(--primary-box-shadow);
 }
@@ -516,6 +516,10 @@ small {
   padding: 1rem;
 }
 
+.card-info-para {
+  padding: 1rem 0;
+}
+
 .card-details {
   display: flex;
   justify-content: space-between;
@@ -532,8 +536,7 @@ small {
 
 .atn-btns {
   display: flex;
-  justify-content: space-between;
-  margin: 1rem 0;
+  justify-content: space-around;
 }
 
 .card-horztl-cart .btn-card {
@@ -565,7 +568,7 @@ small {
 .card-horztl-img {
   max-width: 200px;
   max-height: 200px;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
 }
 
 .card-quant {
