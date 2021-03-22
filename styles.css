@@ -87,6 +87,7 @@ body > main {
   font-size: xx-large;
   font-weight: 400;
   color: var(--dk-pink);
+  font-family: "Varela Round", sans-serif;
 }
 
 .header-nav {
