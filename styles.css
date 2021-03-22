@@ -5,7 +5,7 @@ body {
     "nav main"
     "nav main";
   grid-template-rows: 95px 1fr;
-  grid-template-columns: 230px 1fr;
+  grid-template-columns: 260px 1fr;
 }
 
 body > header {
@@ -28,7 +28,7 @@ body > nav {
   z-index: 1;
   top: 0;
   left: 0;
-  padding: 1.3rem 2rem;
+  padding: 1.3rem 1rem 0 2rem;
   background-color: #ffffff;
 }
 
@@ -102,19 +102,98 @@ body > main {
   padding: 1rem;
 }
 
+.comp-nav ul li:hover {
+  padding: 0.5rem;
+  background-color: var(--body-color);
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
 .comp-nav ul li a {
   font-size: x-large;
   color: #000;
 }
 
+.comp-nav ul li a {
+  width: 100%;
+}
+/* 
+.comp-nav ul li a:hover:before {
+  width: 100%;
+}
+
+.comp-nav ul li a:before {
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  right: 0;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #52d1da;
+  transition: width 0.3s;
+} */
+
+.comp-nav ul li a:hover:after {
+  width: 100%;
+}
+
+.comp-nav ul li a:after {
+  content: "";
+  margin-top: 0.5rem;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #52d1da;
+  transition: width 0.3s;
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .header-nav li {
-  display: inline;
+  /* display: inline; */
   padding: 1rem;
 }
 
 .header-nav li a {
   font-size: larger;
+  position: relative;
+  display: inline;
   color: #000;
+  transition: all 0.3s linear;
+}
+
+.header-nav li a:hover:before {
+  width: 100%;
+}
+
+.header-nav li a:before {
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  right: 0;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #52d1da;
+  transition: width 0.3s;
+}
+
+.header-nav li a:hover:after {
+  width: 100%;
+}
+
+.header-nav li a:after {
+  content: "";
+  margin-top: 0.5rem;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #52d1da;
+  transition: width 0.3s;
 }
 
 .connect li {
