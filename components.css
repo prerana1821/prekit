@@ -41,7 +41,7 @@
 body {
   /* font-family: "Montserrat", sans-serif; */
   font-family: "Work Sans", sans-serif;
-  background-color: var(--body-color);
+  /* background-color: var(--body-color); */
 }
 
 /* Utils */

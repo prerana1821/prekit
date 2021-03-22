@@ -2,10 +2,10 @@ body {
   display: grid;
   grid-template-areas:
     "head head"
-    "nav  main"
-    "nav  main";
+    "nav main"
+    "nav main";
   grid-template-rows: 95px 1fr;
-  grid-template-columns: 220px 1fr;
+  grid-template-columns: 230px 1fr;
 }
 
 body > header {
@@ -23,7 +23,7 @@ body > header {
 body > nav {
   grid-area: nav;
   height: 100%;
-  width: 16%;
+  width: 15%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -34,8 +34,9 @@ body > nav {
 
 body > main {
   grid-area: main;
-  /* background-color: #ffff64; */
-  margin: 2rem 10%;
+  border-radius: 1.5rem 0 0 0;
+  padding: 2rem 10%;
+  background-color: var(--body-color);
 }
 
 .sections {
