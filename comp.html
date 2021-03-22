@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prekit</title>
+    <link rel="stylesheet" href="components.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.google.com/s2/u/0/favicons?domain=prerana-nawar.netlify.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+
+    <header>
+        <nav class="header-nav">
+            <ul class="header-nav-ul">
+                <li><a href="./index.html">Getting Started</a></li>
+                <li><a href="./foundation.html">Foundation</a></li>
+                <li><a href="./">Components</a></li>
+                <li><a href="./resources.html">Resources</a></li>
+            </ul>
+        </nav>
+
+        <div class="connect">
+            <ul>
+                <li><a href=""><i class="fab fa-github"></i> View on Github</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <nav class="comp-nav" >
+
+         <div class="logo"> 
+            <img src="./images/logo.png" alt="Logo">
+            <p class="logo-txt">preKit</p>
+        </div>
+
+        <ul>
+            <li><a href="#avatars">Avatars</a></li>
+            <li><a href="#alerts">Alerts</a></li>
+            <li><a href="#badges">Badges</a></li>
+            <li><a href="#buttons">Buttons</a></li>
+            <li><a href="#cards">Cards</a></li>
+            <li><a href="#images">Images</a></li>
+            <li><a href="#input">Input</a></li>
+            <li><a href="#toast">Toast</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <div id="avatars" class="sections">
+            <h1>Avatars</h1>
+            <p>Basic text writing, including headings, body text, lists, and more.</p>
+            <div class="showcomp">
+                <div class="column-av">
+                    <h3 class="secondary-txt-showcase" >@image avatars</h3>
+                    <div class="row-av">
+                        <img src="images/person-1.jpg" class="avatar" alt="">
+                        <img src="images/person-2.jpg" class="avatar" alt="">
+                        <img src="images/person-3.jpg" class="avatar" alt="">
+                    </div>
+                    
+                    <h3 class="secondary-txt-showcase" >@letter avatars</h3>
+                    <div class="row-av">
+                        <div class="avatar av-sm av-blue">A</div>
+                        <div class="avatar av-sm av-pink">B</div>
+                        <div class="avatar av-sm av-yellow">OP</div>
+                    </div>
+                    
+                    <h3 class="secondary-txt-showcase" >@icon avatars</h3>
+                    <div class="row-av">
+                        <div class="avatar av-sm av-pink"><i class="fab fa-twitter"></i></div>
+                        <div class="avatar av-sm av-blue"><i class="fab fa-instagram"></i></div>
+                        <div class="avatar av-sm av-green"><i class="fab fa-linkedin-in"></i></div>
+                    </div>
+                    
+                <h3 class="secondary-txt-showcase" >@size avatars</h3>
+                <div class="row-av">
+                    <img class="avatar av-sm" src="images/person-1.jpg" alt="">
+                    <img class="avatar " src="images/person-2.jpg" alt="">
+                    <img class="avatar av-lg" src="images/person-3.jpg" alt="">
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="alerts" class="sections">
+            <h1>Alerts</h1>
+            <p>Convey meaning through color with a handful of color utility classes.</p>
+            <div class="showcomp">
+                <div class="column-av">
+                 <h3 class="secondary-txt-showcase">@error alert</h3>
+                <div class="alert al-error" > 
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p>This is an error alert — check it out!</p>
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <h3 class="secondary-txt-showcase" >@warning alert</h3>
+                <div class="alert al-warning" > 
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <p>This is an warning alert — check it out!</p>
+                        <i class="fas fa-times"></i>
+                </div>
+
+                <h3 class="secondary-txt-showcase" >@info alert</h3>
+                <div class="alert al-info" > 
+                    <i class="fas fa-info-circle"></i>
+                    <p>This is an info alert — check it out!</p>
+                        <i class="fas fa-times"></i>
+                </div>
+
+                <h3 class="secondary-txt-showcase" >@success alert</h3>
+                <div class="alert al-success"> 
+                    <i class="fas fa-check-circle"></i>
+                    <p>This is an success alert — check it out!</p>
+                    <i class="fas fa-times"></i>
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="badges" class="sections">
+            <h1>Badges</h1>
+            <p>Convey meaning through color with a handful of color utility classes.</p>
+            <div class="showcomp">
+                  <h3 class="secondary-txt-showcase" >@Badge on Avatars</h3>
+                <div class="row">
+                    <div class="badge-av">
+                        <img class="avatar" src="images/person-1.jpg" alt="">
+                        <div class="badge green bdg-bttm"></div>
+                    </div>
+                    <div class="badge-av">
+                        <img class="avatar" src="images/person-2.jpg" alt="">
+                        <div class="badge yellow bdg-bttm"></div>
+                    </div>
+                    <div class="badge-av">
+                        <img class="avatar" src="images/person-3.jpg" alt="">
+                        <div class="badge pink bdg-bttm"></div>
+                    </div>
+                </div>
+
+                <h3 class="secondary-txt-showcase">@Badge on Icons</h3>
+                <div class="row">
+                    <div class="badge-av">
+                        <div class="badge-icn green bdg-top">10</div>
+                        <div class="avatar av-green">
+                        <i class="fas fa-lg fa-bell"></i>
+                        </div>
+                    </div>
+                    <div class="badge-av">
+                        <div class="badge-icn pink bdg-top">8+</div>
+                        <div class="avatar av-pink">
+                            <i class="fas fa-lg fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="badge-av">
+                        <div class="badge-icn yellow bdg-top">20</div>
+                        <div class="avatar av-yellow">
+                            <i class="fas fa-lg fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="buttons" class="sections">
+            <h1>Buttons</h1>
+            <p>Convey meaning through color with a handful of color utility classes.</p>
+            <div class="showcomp">
+                <div class="row">
+                    <div>
+                        <h3 class="secondary-txt-showcase" >primary button</h3>
+                        <button class="btn btn-primary green">Primary Button</button>
+                    </div>
+                    <div>
+                        <h3 class="secondary-txt-showcase" >secondary button</h3>
+                        <button class="btn btn-secondary sec-green">Secondary Button</button>
+                    </div>
+                    <div>
+                        <h3 class="secondary-txt-showcase" >tertiary button</h3>
+                        <button class="btn btn-tertiary tri-green">Tertiary button</button>
+                    </div>
+                </div>
+
+                <h2 class="primary-txt-showcase">@Links</h2>
+                <div class="row">
+                    <div>
+                        <h3 class="secondary-txt-showcase">primary link</h3>
+                        <a href="#" class="link link-primary pink">Primary Link</a>
+                    </div>
+                    <div>
+                        <h3 class="secondary-txt-showcase">secondary link</h3>
+                        <a href="#" class="link link-secondary sec-pink">Secondary Link</a>
+                    </div>
+                    <div>
+                        <h3 class="secondary-txt-showcase">tertiary link</h3>
+                        <a href="#" class="link link-tertiary tri-pink">Tertiary Link</a>
+                    </div>
+                </div>
+
+                <h2 class="primary-txt-showcase" >@Icon with Text Button</h2>
+                <div class="row">
+                    <div>
+                        <h3 class="secondary-txt-showcase" >@primary button</h3>
+                        <button class="btn btn-icn-primary blue">
+                            <i class="fas fa-heart"></i>
+                            Primary Button
+                        </button>
+                    </div>
+                    <div>
+                        <h3 class="secondary-txt-showcase" >@secondary button</h3>
+                        <button class="btn btn-icn-secondary sec-blue">
+                            <i class="fas fa-shopping-cart"></i>
+                            Secondary Button
+                        </button>
+                    </div>
+                    <div>
+                        <h3 class="secondary-txt-showcase" >@tertiary button</h3>
+                        <button class="btn btn-icn-tertiary tri-blue">
+                            <i class="fab fa-twitter"></i>
+                            Tertiary button
+                        </button>
+                    </div>
+                </div>
+
+                <h2 class="primary-txt-showcase" >@Floating Action Button</h2>
+                <div class="row">
+                    <div>
+                        <h3 class="secondary-txt-showcase" >primary button</h3>
+                        <button class="floating-act flt-pri yellow">
+                            <i class="fas fa-lg fa-plus"></i>
+                        </button>
+                    </div>
+                    <div>
+                        <h3 class="secondary-txt-showcase" >secondary button</h3>
+                        <button class="floating-act flt-sec sec-pink">
+                            <i class="fas fa-lg fa-plus"></i>
+                        </button>
+                    </div>
+                    <div>
+                        <h3 class="secondary-txt-showcase" >tertiary button</h3>
+                        <button class="floating-act flt-tri sec-blue">
+                            <i class="fas fa-lg fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cards" class="sections">
+            <h1>Cards</h1>
+            <p>Convey meaning through color with a handful of color utility classes.</p>
+            <div class="showcomp">
+                 <h3 class="secondary-txt-showcase">@Cards with badges</h3>
+                <div class="row">
+                    <div class="card">
+                        <img class="card-img" src="https://assets.myntassets.com/fl_progressive/h_960,q_80,w_720/v1/assets/images/11535080/2020/3/3/5d103cde-0373-45f9-be71-b440ea3c3b271583220811741-AND-Women-Jumpsuit-5431583220810831-1.jpg" alt="">
+                        <div class="bdge-sm pink">NEW</div>
+                        <div class="card-info" >
+                            <h3>Women Jumpsuit</h3>
+                            <h4>Women Rust Orange Solid Basic Linen Jumpsuit</h4>
+                            <div class="card-details">
+                                <p>Rs. 2341</p>
+                                <button class="floating-act primary flt-tri">
+                                    <i class="far fa-lg fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary primary btn-card">Shop Now</button>
+                    </div>
+                    
+                    <div class="card">
+                        <img class="card-img" src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/11889120/2020/5/28/b74b650f-a321-4b1f-bd27-108614006c041590656156603HIGHLANDERMenNavyBlueWhiteSlimFitPrintedCasualShirt1.jpg" alt="">
+                        <div class="bgde-lg pink"></div>
+                        <div class="card-info">
+                            <h3>Simon Carter London</h3>
+                            <h4>Men Off-White & Orange Slim Fit Shirt</h4>
+                            <div class="card-details">
+                                <p>Rs. 2341</p>
+                                <button class="floating-act flt-tri primary">
+                                    <i class="far fa-lg fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary primary btn-card">Shop Now</button>
+                    </div>
+                </div>
+
+                <h3 class="secondary-txt-showcase">@Cards with dismiss</h3>
+                <div class="column">
+                    <div class="card">
+                        <img class="card-img" src="https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                        <button class="floating-act bdge-cl tertiary">
+                            <i class="fas fa-lg fa-times"></i>
+                        </button>
+                        <div class="card-info">
+                            <h3>Card Title</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita maxime iste atque esse illo voluptas aperiam assumenda aliquid excepturi harum.</p>
+                        </div>
+                        <button class="btn btn-primary primary btn-card">Shop Now</button>
+                    </div>
+                </div>
+
+                <h3 class="secondary-txt-showcase">@Cards with text overlay</h3>
+                <div class="row" >
+                    <div class="card-ovlay">
+                        <small class="txt-ovlay">Starts at Rs.1000</small>
+                        <img class="card-img img-ovlay" src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/13441604/2021/2/17/184d761e-c7d4-4ed7-9921-4cdb31fd30381613542585359-Shezone-Women-Pink-Textured-Block-Heels-5981613542584045-1.jpg" alt="">
+                        <p class="txt-ovlay">Women's Shoes</p>
+                        <button class="floating-act bdge-cl flt-tri sec-blue"><i class="far fa-lg fa-heart"></i></button>
+                    </div>
+                    
+                    <div class="card-ovlay">
+                        <small class="txt-ovlay">Starts at Rs.5000</small>
+                        <img class="card-img img-ovlay" src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/productimage/2018/12/15/99378839-8c52-47b2-883f-f6fc8f1c78161544894681907-1.jpg" alt="">
+                        <p class="txt-ovlay">Home Accessories</p>
+                        <button class="floating-act bdge-cl flt-tri"><i class="far fa-lg fa-heart"></i></button>
+                    </div>
+                </div>
+                    
+                <h3 class="secondary-txt-showcase">@Text only cards</h3>
+                <div class="column">
+                    <div class="card" >
+                        <div class="card-info" >
+                            <h3>Card Title</h3>  
+                            <small>Card Subtitle</small>          
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, illo dolores voluptatum molestiae voluptate suscipit debitis nam qui beatae tenetur.</p>
+                        </div>
+                        <button class="btn btn-primary primary">Show More</button>
+                    </div>
+                </div>
+
+                <h3 class="secondary-txt-showcase">@Horizontal Cards</h3>
+                
+
+                <div class="column">
+
+                    <div class="card-horztl">
+                        <img class="card-horztl-img" src="./images/person-2.jpg" alt="">
+                        <div class="card-info" >
+                            <h3>Solid Sweatshirt with Velvet Finish</h3>
+                            <small>Size: 8 UK</small>
+                            <div class="card-details-horztl">
+                                <div class="card-quant">
+                                    <button class="floating-act bdge-cl flt-tri sec-blue"><i class="fas fa-lg fa-plus"></i></button>
+                                    <p>2</p>
+                                    <button  class="floating-act bdge-cl flt-tri sec-blue"><i class="fas fa-minus"></i></button>
+                                </div>
+                                <p>Rs. 800</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-horztl-cart" >
+                        <div class="card-horztl" >
+                            <img class="card-horztl-img" src="./images/person-1.jpg" alt="">
+                            <div class="card-info">
+                                <h3>Solid Sweatshirt with Velvet Finish</h3>
+                                <small>Size: 8 UK</small>
+                                <div class="card-details-horztl">
+                                    <div class="card-quant">
+                                        <button class="floating-act bdge-cl flt-tri tertiary"><i class="fas fa-plus"></i></button>
+                                        <p>2</p>
+                                        <button class="floating-act bdge-cl flt-tri tertiary"><i class="fas fa-minus"></i></button>
+                                    </div>
+                                    <p>Rs. 800</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="atn-btns" >
+                            <button class="btn btn-icn-primary primary btn-card">
+                                <i class="fas fa-shopping-cart"></i>
+                                Checkout
+                            </button>
+                            <button class="btn btn-icn-secondary secondary btn-card">
+                                <i class="fas fa-heart"></i>
+                                Move to Wishlist
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <div id="images" class="sections">
+            <h1>Images</h1>
+            <p>Convey meaning through color with a handful of color utility classes.</p>
+            <div class="showcomp">
+                <div class="row">
+                    <div>
+                        <h3 class="secondary-txt-showcase">@Responsive Images</h3>
+                        <img class="img-res" src="https://images.pexels.com/photos/165505/pexels-photo-165505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    </div>
+                        
+                    <div>
+                        <h3 class="secondary-txt-showcase">@Round Image</h3>
+                        <img class="img-cir" src="./images/person-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div id="input" class="sections">
+            <h1>Input</h1>
+            <p>Convey meaning through color with a handful of color utility classes.</p>
+            <div class="showcomp">
+                <div class="row">
+                    <div>
+                        <h3 class="secondary-txt-showcase">@input text</h3>
+                        <div class="input" >
+                            <input type="text" class="input-txt" required/>
+                            <span class="flt-label"><i class="fas fa-user"></i> Your Name</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="secondary-txt-showcase">@input text error</h3>
+                        <div class="input" >
+                            <input type="text" class="input-txt-error" required/>
+                            <span class="flt-label-error"><i class="fas fa-exclamation-circle"></i> Your Name</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div>
+                        <h3 class="secondary-txt-showcase">@input text warning</h3>
+                        <div class="input" >
+                            <input type="text" class="input-txt-warning" required/>
+                            <span class="flt-label-warning"><i class="fas fa-exclamation-triangle"></i> Your Name</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="secondary-txt-showcase">@textarea</h3>
+                        <div class="input">
+                            <textarea class="input-txtarea" cols="30" rows="10" required></textarea>
+                            <span class="flt-label">Please enter a description</span>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+
+        <div id="toast" class="sections">
+            <h1>Toast</h1>
+            <p>Convey meaning through color with a handful of color utility classes.</p>
+            <div class="showcomp">
+               
+            <h3 class="secondary-txt-showcase">@Simple Toast</h3>
+            <div class="toast tl-error"> 
+                <div class="tl-content-error" >
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p>This is a message</p>
+                </div>
+            </div>
+            
+            <h3 class="secondary-txt-showcase">@Toast with Title</h3>
+            <div class="toast-lg tl-info" >
+            <i class="fas fa-lg fa-lightbulb"></i>
+                <div>
+                    <h3>What a Great Idea!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis expedita esse nihil quia quis fugit rerum similique beatae? Placeat, rem!</p>
+                </div>
+            </div>  
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
