@@ -5,7 +5,8 @@ body {
     "nav main"
     "nav main";
   grid-template-rows: 95px 1fr;
-  grid-template-columns: 260px 1fr;
+  grid-template-columns: 230px 1fr;
+  overflow-x: hidden;
 }
 
 body > header {
