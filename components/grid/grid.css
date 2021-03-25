@@ -1,0 +1,78 @@
+/* Grids */
+
+.grid {
+  max-width: 1200px;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid2By2 {
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.grid-items {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+}
+
+.grid-items > p {
+  color: #000;
+  font-size: x-large;
+}
+
+.dk-pink {
+  background-color: var(--dk-pink);
+}
+
+.dk-yellow {
+  background-color: var(--dk-yellow);
+}
+
+.dk-blue {
+  background-color: var(--dk-blue);
+}
+
+.dk-green {
+  background-color: var(--dk-green);
+}
+
+.lt-pink {
+  background-color: var(--lt-pink);
+  border: 2px solid var(--dk-pink);
+}
+.lt-yellow {
+  background-color: var(--lt-yellow);
+  border: 2px solid var(--dk-yellow);
+}
+.lt-blue {
+  background-color: var(--lt-blue);
+  border: 2px solid var(--dk-blue);
+}
+.lt-green {
+  background-color: var(--lt-green);
+  border: 2px solid var(--dk-green);
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+}
+
+.tertiary {
+  background-color: var(--tertiary-color);
+  border: 2px solid var(--grey-color);
+}
+
+.body-color {
+  background-color: var(--body-color);
+  border: 2px solid var(--dk-blue);
+}
