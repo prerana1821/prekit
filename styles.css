@@ -228,7 +228,7 @@ body > main {
 .features {
   display: flex;
   margin: 1rem 0;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .feature {
