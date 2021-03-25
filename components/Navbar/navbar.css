@@ -30,7 +30,7 @@
 }
 
 .nav-list-item {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .nav-list-item > a {
@@ -65,5 +65,5 @@
 
 .nav-icons {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
