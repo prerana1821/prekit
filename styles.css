@@ -249,3 +249,7 @@ body > main {
 .footer-list a {
   color: #000;
 }
+
+.active {
+  color: var(--dk-pink) !important;
+}
