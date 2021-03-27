@@ -4,11 +4,11 @@
     flex-direction: column;
   }
 
-  .card-horztl {
+  .card-horizontal {
     flex-direction: column;
   }
 
-  .card-horztl-img {
+  .card-horizontal-img {
     max-width: 290px;
     max-height: 270px;
   }
@@ -21,7 +21,7 @@
     flex-direction: column;
     gap: 1rem;
   }
-  .card-horztl-cart .btn-card {
+  .card-horizontal-cart .btn-card {
     width: 100%;
     box-shadow: none;
   }

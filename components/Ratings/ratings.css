@@ -10,7 +10,7 @@
   color: var(--dk-yellow);
 }
 
-.bdge-ratings {
+.badge-ratings {
   background-color: var(--primary-color);
   display: flex;
   align-items: center;
