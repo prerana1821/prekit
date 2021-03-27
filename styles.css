@@ -253,3 +253,32 @@ body > main {
 .active {
   color: var(--dk-pink) !important;
 }
+
+.foundation-iframes {
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.mg2 {
+  margin: 2rem;
+}
+.mg2-0 {
+  margin: 2rem 0;
+}
+
+.mg2-0-1 {
+  margin: 2rem 0 1rem;
+}
+
+.mg1-3 {
+  margin: 1rem 3rem;
+}
+
+.mg0-2 {
+  margin: 0 2rem;
+}
+
+.mg1-0 {
+  margin: 1rem 0;
+}
