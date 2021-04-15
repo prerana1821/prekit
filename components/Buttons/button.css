@@ -1,0 +1,60 @@
+/* buttons */
+.btn {
+  outline: none;
+  padding: 0.8rem 1rem;
+  font-size: large;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: var(--primary-box-shadow);
+}
+
+.btn-primary {
+  color: var(--white-color);
+  border: none;
+}
+
+/* links */
+.link {
+  outline: none;
+  font-size: large;
+  padding: 0.8rem 1rem;
+  border-radius: 2rem;
+  margin: 0.5rem 0;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: var(--primary-box-shadow);
+}
+
+.link-primary {
+  color: var(--white-color);
+}
+
+/* icon buttons */
+.btn-icn-primary {
+  color: var(--white-color);
+  border: none;
+}
+
+/* floating action button */
+.floating-act {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--primary-box-shadow);
+  outline: none;
+  border: none;
+}
+
+.floating-pri {
+  border: none;
+}
+
+.flt-tri {
+  border: none;
+}

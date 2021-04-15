@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+  .showcase {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .card-horizontal {
+    flex-direction: column;
+  }
+
+  .card-horizontal-img {
+    max-width: 290px;
+    max-height: 270px;
+  }
+
+  .grid2By2 {
+    grid-template-columns: 1fr;
+  }
+
+  .atn-btns {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .card-horizontal-cart .btn-card {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .header-nav-ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal > .actn-btns {
+    gap: 1rem;
+    flex-direction: column;
+  }
+}
